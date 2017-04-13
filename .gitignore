@@ -2,3 +2,15 @@
 *.xml
 Ball Test.X/dist/default/production/Ball_Test.X.production.sym
 *.mk
+*.p1
+Ball Test.X/build/default/debug/main.p1.d
+*.d
+*.elf
+Ball Test.X/dist/default/debug/Ball_Test.X.debug.hxl
+*.cmf
+Ball Test.X/dist/default/production/Ball_Test.X.production.sym
+*.mum
+Ball Test.X/dist/default/production/Ball_Test.X.production.elf
+*.sym
+*.hex
+Ball Test.X/dist/default/production/Ball_Test.X.production.elf
