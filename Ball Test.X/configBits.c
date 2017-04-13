@@ -4,7 +4,7 @@
 // 'C' source line config statements
 
 // CONFIG1L
-#pragma config FEXTOSC = OFF    // External Oscillator mode Selection bits (Oscillator not enabled)
+#pragma config FEXTOSC = OFF 
 #pragma config RSTOSC = HFINTOSC_64MHZ// Power-up default value for COSC bits (HFINTOSC with HFFRQ = 64 MHz and CDIV = 1:1)
 
 // CONFIG1H
@@ -14,7 +14,7 @@
 
 // CONFIG2L
 #pragma config MCLRE = EXTMCLR  // Master Clear Enable bit (If LVP = 0, MCLR pin is MCLR; If LVP = 1, RE3 pin function is MCLR )
-#pragma config PWRTE = ON       // Power-up Timer Enable bit (Power up timer enabled)
+#pragma config PWRTE = OFF      // Power-up Timer Enable bit (Power up timer disabled)
 #pragma config LPBOREN = OFF    // Low-power BOR enable bit (ULPBOR disabled)
 #pragma config BOREN = NOSLP    // Brown-out Reset Enable bits (Brown-out Reset enabled while running, disabled in Sleep; SBOREN is ignored)
 
@@ -23,7 +23,7 @@
 #pragma config ZCD = OFF        // ZCD Disable bit (ZCD disabled. ZCD can be enabled by setting the ZCDSEN bit of ZCDCON)
 #pragma config PPS1WAY = ON     // PPSLOCK bit One-Way Set Enable bit (PPSLOCK bit can be cleared and set only once; PPS registers remain locked after one clear/set cycle)
 #pragma config STVREN = ON      // Stack Full/Underflow Reset Enable bit (Stack full/underflow will cause Reset)
-#pragma config DEBUG = ON       // Debugger Enable bit (Background debugger enabled)
+#pragma config DEBUG = OFF      // Debugger Enable bit (Background debugger disabled)
 #pragma config XINST = OFF      // Extended Instruction Set Enable bit (Extended Instruction Set and Indexed Addressing Mode disabled)
 
 // CONFIG3L
@@ -65,8 +65,9 @@
 // #pragma config statements should precede project file includes.
 // Use project enums instead of #define for ON and OFF.
 
+#include <xc.h>
+
 #define _XTAL_FREQ 64000000
 
-#include <xc.h>
 
 
