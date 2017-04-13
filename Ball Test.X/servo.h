@@ -26,9 +26,6 @@
  * Revision history: 
  */
 
-void servo_x(unsigned long int);
-void servo_y(unsigned long int);
+void servo_x(unsigned int ang);
+void servo_y(unsigned int ang);
 void servo_init();
-void tmr2_set(unsigned int);
-void tmr4_set(unsigned int);
-void tmr6_set(unsigned int);
