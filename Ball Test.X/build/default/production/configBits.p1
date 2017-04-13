@@ -1,73 +1,73 @@
 Version 3.2 HI-TECH Software Intermediate Code
-"7 configBits.c
+"8 configBits.c
 [p x FEXTOSC=OFF ]
-"8
+"9
 [p x RSTOSC=HFINTOSC_64MHZ ]
-"11
-[p x CLKOUTEN=OFF ]
 "12
-[p x CSWEN=ON ]
+[p x CLKOUTEN=OFF ]
 "13
+[p x CSWEN=ON ]
+"14
 [p x FCMEN=OFF ]
-"16
-[p x MCLRE=EXTMCLR ]
 "17
-[p x PWRTE=ON ]
+[p x MCLRE=EXTMCLR ]
 "18
-[p x LPBOREN=OFF ]
+[p x PWRTE=OFF ]
 "19
-[p x BOREN=NOSLP ]
-"22
-[p x BORV=VBOR_2P45 ]
+[p x LPBOREN=OFF ]
+"20
+[p x BOREN=OFF ]
 "23
-[p x ZCD=OFF ]
+[p x BORV=VBOR_2P45 ]
 "24
-[p x PPS1WAY=ON ]
+[p x ZCD=OFF ]
 "25
-[p x STVREN=ON ]
+[p x PPS1WAY=ON ]
 "26
-[p x DEBUG=ON ]
+[p x STVREN=ON ]
 "27
+[p x DEBUG=OFF ]
+"28
 [p x XINST=OFF ]
-"30
-[p x WDTCPS=WDTCPS_31 ]
 "31
+[p x WDTCPS=WDTCPS_31 ]
+"32
 [p x WDTE=OFF ]
-"34
-[p x WDTCWS=WDTCWS_7 ]
 "35
+[p x WDTCWS=WDTCWS_7 ]
+"36
 [p x WDTCCS=SC ]
-"38
-[p x WRT0=OFF ]
 "39
-[p x WRT1=OFF ]
+[p x WRT0=OFF ]
 "40
-[p x WRT2=OFF ]
+[p x WRT1=OFF ]
 "41
+[p x WRT2=OFF ]
+"42
 [p x WRT3=OFF ]
-"44
-[p x WRTC=OFF ]
 "45
-[p x WRTB=OFF ]
+[p x WRTC=OFF ]
 "46
-[p x WRTD=OFF ]
+[p x WRTB=OFF ]
 "47
-[p x SCANE=ON ]
+[p x WRTD=OFF ]
 "48
+[p x SCANE=ON ]
+"49
 [p x LVP=OFF ]
-"51
-[p x CP=OFF ]
 "52
+[p x CP=OFF ]
+"53
 [p x CPD=OFF ]
-"57
-[p x EBTR0=OFF ]
 "58
-[p x EBTR1=OFF ]
+[p x EBTR0=OFF ]
 "59
-[p x EBTR2=OFF ]
+[p x EBTR1=OFF ]
 "60
+[p x EBTR2=OFF ]
+"61
 [p x EBTR3=OFF ]
-"63
+"64
 [p x EBTRB=OFF ]
 [; ;htc.h: 26: extern const char __xc8_OPTIM_SPEED;
 [; ;htc.h: 28: extern double __fpnormalize(double);

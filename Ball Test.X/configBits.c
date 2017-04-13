@@ -17,7 +17,7 @@
 #pragma config MCLRE = EXTMCLR  // Master Clear Enable bit (If LVP = 0, MCLR pin is MCLR; If LVP = 1, RE3 pin function is MCLR )
 #pragma config PWRTE = OFF      // Power-up Timer Enable bit (Power up timer disabled)
 #pragma config LPBOREN = OFF    // Low-power BOR enable bit (ULPBOR disabled)
-#pragma config BOREN = NOSLP    // Brown-out Reset Enable bits (Brown-out Reset enabled while running, disabled in Sleep; SBOREN is ignored)
+#pragma config BOREN = OFF    // Brown-out Reset Enable bits (Brown-out Reset enabled while running, disabled in Sleep; SBOREN is ignored)
 
 // CONFIG2H
 #pragma config BORV = VBOR_2P45 // Brown Out Reset Voltage selection bits (Brown-out Reset Voltage (VBOR) set to 2.45V)

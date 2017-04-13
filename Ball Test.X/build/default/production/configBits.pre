@@ -2,7 +2,7 @@
 # 1 "configBits.c"
 
 
-# 7
+# 8
 #pragma config FEXTOSC = OFF
 #pragma config RSTOSC = HFINTOSC_64MHZ
 
@@ -13,16 +13,16 @@
 
 
 #pragma config MCLRE = EXTMCLR
-#pragma config PWRTE = ON
+#pragma config PWRTE = OFF
 #pragma config LPBOREN = OFF
-#pragma config BOREN = NOSLP
+#pragma config BOREN = OFF
 
 
 #pragma config BORV = VBOR_2P45
 #pragma config ZCD = OFF
 #pragma config PPS1WAY = ON
 #pragma config STVREN = ON
-#pragma config DEBUG = ON
+#pragma config DEBUG = OFF
 #pragma config XINST = OFF
 
 
