@@ -1,0 +1,1 @@
+int get_control(int curr_x, int curr_y);
